@@ -11,7 +11,10 @@ default: &default
 
 development:
   <<: *default
-  database: siyan_api_dev
+  host: siyan-api.ci10biwxfecs.us-east-1.rds.amazonaws.com
+  username: siyan
+  password: trance85
+  database: homepage
 
 production:
   <<: *default
